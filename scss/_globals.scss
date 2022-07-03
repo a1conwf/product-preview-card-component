@@ -1,0 +1,29 @@
+@import "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2EAE2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: $lightBlue;
+}
+
+h1,
+.new__price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: $black;
+}
